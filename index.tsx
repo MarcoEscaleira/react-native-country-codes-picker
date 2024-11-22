@@ -268,6 +268,7 @@ export const CountryPicker = ({
                         }}
                     >
                         <TextInput
+                            // @ts-ignore
                             style={[styles.searchBar, style?.textInput]}
                             value={searchValue}
                             onChangeText={setSearchValue}
